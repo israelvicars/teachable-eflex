@@ -1,5 +1,5 @@
 .output__container--speech {
-	background: $color__white
+	background: #d9d7e4
 }
 
 .output__speech-class {
@@ -34,7 +34,6 @@
 }
 
 .output__speech-edit:after {
-	content: "Say"
 	position: absolute
 	top: 0
 	left: 25px
@@ -42,10 +41,19 @@
 	color: $color__black
 }
 
+.output__speech-edit--green:after {
+	content: "1:"
+}
+.output__speech-edit--purple:after {
+	content: "2:"
+}
+.output__speech-edit--orange:after {
+	content: "3:"
+}
+
 .output__speech-edit--green svg {
 	fill: $color__class-green--primary
 }
-
 
 .output__speech-edit--purple svg {
 	fill: $color__class-purple--primary
@@ -59,7 +67,7 @@
 	position: absolute
 	width: 40px
 	height: 42px
-	right: 4px
+	right: 14px
 	cursor: pointer
 	background: white
 	background-image: url(assets/outputs/delete-icon.svg)

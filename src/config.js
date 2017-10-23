@@ -34,15 +34,15 @@ let GLOBALS = {
 	'red'
 	],
 	colors: {
-		'green': '#2baa5e',
-		'purple': '#c95ac5',
-		'orange': '#dd4d31',
+		'green': '#95cc7c',
+		'purple': '#e67a82',
+		'orange': '#ffb202',
 		'red': '#e8453c'
 	},
 	rgbaColors: {
-		'green': 'rgba(43, 170, 94, 0.25)',
-		'purple': 'rgba(201, 90, 197, 0.25)',
-		'orange': 'rgba(221, 77, 49, 0.25)',
+		'green': 'rgba(149, 204, 124, 0.25)',
+		'purple': 'rgba(230, 122, 130, 0.25)',
+		'orange': 'rgba(255, 178, 2, 0.25)',
 		'red': 'rgba(232, 69, 60, 0.25)'
 	},
 	classId: null,

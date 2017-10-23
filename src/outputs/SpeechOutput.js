@@ -26,9 +26,9 @@ class SpeechOutput {
         this.element.classList.add('output__container--speech');
 
         this.defaultMessages = [
-        'Hello',
-        'Awesome',
-        'Yes'
+        'Part passes',
+        'Part fails',
+        'Change part'
         ];
 
         this.classNames = GLOBALS.classNames;

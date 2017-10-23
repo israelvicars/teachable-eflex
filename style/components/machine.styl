@@ -10,13 +10,27 @@
 
 .machine {
 	position: relative
-	background: $color__background
-	padding-top: space(8)
+	background: #22252c
+	padding-top: space(12)
 	padding-bottom: space(10)
 	text-align: center
 	
 	@extend .font__size--small
 	letter-spacing: 0.3px
+}
+.machine__header {
+  height: 60px
+  width: 100%
+  background-color: #545a69
+  position: absolute
+  top: 0px
+}
+
+.eflex__logo {
+  height: 40px
+  width: auto
+  margin: 10px 0px 10px 20px
+  float: left
 }
 
 .machine__sections {
@@ -46,7 +60,7 @@
 }
 
 .section__container {
-	background: $color__white
+	background: #545a69
 	border-radius: 5px
 	padding: space(1.5)
 }
@@ -55,6 +69,10 @@
 	position: relative
 	margin-top: 70px
 	width: 300px
+}
+
+.section--output .section__container {
+  padding-top: 0px
 }
 
 .input__media {
@@ -185,7 +203,7 @@
 .examples__viewer {
 	width: 103px
 	height: 103px
-	background: $color__background
+	background: #d9d7e4
 	transform: scaleX(-1)
 }
 
@@ -287,8 +305,8 @@
 .section--output {
 	position: relative
 	// margin-top: $section__offset
-	margin-top: 20px
-	width: 300px
+	margin-top: 75px
+	width: 350px
 }
 
 .output__player {
@@ -300,6 +318,7 @@
 .output__container {
 	width: 100%
 	height: 100%
+  padding-right: 10px
 }
 
 .output__canvas {
@@ -309,7 +328,6 @@
 
 .divider {
 	height: 1px
-	background: $color__divider
 	margin-top: space(1)
 	margin-right: space(-1)
 	margin-bottom: space(1)
@@ -317,7 +335,7 @@
 }
 
 .output__controls {	
-	height: 40px
+	height: 0px
 	display: flex
 }
 

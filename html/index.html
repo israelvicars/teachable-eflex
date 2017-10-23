@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Teachable Machine</title>
+    <title>eFlex Experiments</title>
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/x-icon" href="assets/static/favicon/favicon.ico" />
     <link rel="apple-touch-icon-precomposed" href="assets/static/favicon/favicon-152.png">
@@ -12,7 +12,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
     <meta name="fb:app_id" content="1442525379177526" />
-    <meta property="og:title" content="Teachable Machine" />
+    <meta property="og:title" content="eFlex Experiments" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://teachablemachine.withgoogle.com/" />
     <meta property="og:image" content="https://teachablemachine.withgoogle.com/assets/static/share-image.jpg" />
@@ -33,6 +33,11 @@
     <link href="https://fonts.googleapis.com/css?family=Caveat:700|Poppins:400,500,600,700" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <script src="bundle.js"></script>
+    <style>
+      .intro__sharing, #start-tutorial-button, .faq-record-container {
+        display: none;
+      }
+    </style>
 </head>
 <body class="no-scroll">
     <div class="wrapper">
@@ -42,48 +47,48 @@
                 <a href="https://twitter.com/home?status=Teachable%20Machine%3A%20Explore%20machine%20learning,%20live%20in%20your%20browser.%20No%20coding%20required%20%E2%86%92%20http%3A//g.co/teachablemachine%20%23teachablemachine" class="intro__share-link intro__share-link--twitter"></a>
             </div>
             <div class="intro__inner">
-                <h1 class="intro__title"><span class="hidden-text">Teachable Machine</span><img
-                    src="assets/teachable-machine-splash-desktop.svg" alt="" class="intro__title-image intro__title-image--desktop"><img src="assets/teachable-machine-splash-desktop.svg" alt="" class="intro__title-image intro__title-image--mobile"></h1>
-                    <span class="intro__content-desktop">
-                        <p class="intro__text">Teach a machine using your camera,<span class="intro__text-break"></span> live in the browser. No coding required.</p>
-                        <div class="intro__cta">
-                            <a href="#" class="button button--large button--color-blue" id="start-tutorial-button">
-                                <span class="button__content">
-                                    <span class="icon icon--speaker">
-                                    </span>
-                                    Let’s Go!
-                                </span>
-                            </a>
-                            <p class="wizard__launch-skip-paragraph">or <a href="#" class="link wizard__launch-skip" id="skip-tutorial-button">skip the tutorial</a></p>
-                            <p class="wizard__browser-warning">Sorry, your browser doesn’t support the latest technologies. <br>Download <a class="link" href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Google Chrome</a> to use this and other experiments.</p>
-                        </div>
-                    </span>
-                    <span class="intro__content-mobile" id="is-compatible">
-                        <p class="font__weight--semi-bold intro__content-mobile-header">Mobile version <br>is highly experimental.</p>
-                        <p class="intro__content-mobile-body">If you’re new to machine learning, visit the site on a desktop for a helpful first-time tutorial and better performance.</p>
-                        <p class="intro__content-mobile-ok">
-                            <a href="#" class="link font__weight--semi-bold intro__content-mobile-ok-link"
-                            id="skip-tutorial-button-mobile">GOT IT</a>
-                        </p>
-                    </span>
-                    <span class="intro__content-mobile-incompatible" id="is-not-compatible">
-                        Sorry, looks like your browser or device doesn't support this experiment. Learn more about
-                        Teachable Machine <a href="" class="link">here.</a> Or try visiting this site on a desktop
-                        computer in a
-                        browser like Chrome.
-                    </span>
+              <h1 class="intro__title"><span class="hidden-text">eFlex Experiments</span>
+                <img src="assets/static/eflex-exp-logo.png" alt="" class="intro__title-image intro__title-image--desktop">
+                <img src="assets/static/eflex-exp-logo.png" alt="" class="intro__title-image intro__title-image--mobile">
+              </h1>
+                  <span class="intro__content-desktop">
+                      <p class="intro__text">Applying machine learning<span class="intro__text-break"></span> to the assembly line</p>
+                      <div class="intro__cta">
+                          <a href="#" class="button button--large button--color-blue" id="start-tutorial-button">
+                              <span class="button__content">
+                                  <span class="icon icon--speaker"></span>
+                                  Let’s Go!
+                              </span>
+                          </a>
+                          <p class="wizard__launch-skip-paragraph"><a href="#" class="link wizard__launch-skip" id="skip-tutorial-button">Launch Experiment</a></p>
+                          <p class="wizard__browser-warning">Sorry, your browser doesn’t support technologies required for our experiment.</p>
+                      </div>
+                  </span>
+                  <span class="intro__content-mobile" id="is-compatible">
+                      <p class="font__weight--semi-bold intro__content-mobile-header">Mobile version <br>is highly experimental.</p>
+                      <p class="intro__content-mobile-body">Please visit the site on a desktop for a helpful first-time tutorial and better performance.</p>
+                      <p class="intro__content-mobile-ok">
+                          <a href="#" class="link font__weight--semi-bold intro__content-mobile-ok-link" id="skip-tutorial-button-mobile">GOT IT</a>
+                      </p>
+                  </span>
+                  <span class="intro__content-mobile-incompatible" id="is-not-compatible">
+                    Sorry, looks like your browser or device doesn't support this experiment.
+                  </span>
                 </div>
                 <div class="intro__footer">
-                    <a href="https://experiments.withgoogle.com/ai" target="_blank" class="link intro__footer-link--left"><img
-                        src="./assets/footer-intro.svg" class="intro__footer-image"
-                        alt="Made with some friends at Google"></a>
-                        <a href="https://www.google.com/policies/" target="_blank" class="link link--grey intro__footer-link--right">Privacy &amp; Terms</a>
-                    </div>
+                  <!--<a href="https://experiments.withgoogle.com/ai" target="_blank" class="link intro__footer-link--left">-->
+                    <!--<img src="./assets/footer-intro.svg" class="intro__footer-image" alt="Made with some friends at Google">-->
+                  <!--</a>-->
+                  <!--<a href="https://www.google.com/policies/" target="_blank" class="link link--grey intro__footer-link--right">Privacy &amp; Terms</a>-->
+                </div>
                 </div>
                 <div class="machine" id="machine">
+                    <div class="machine__header">
+                      <img src="assets/eflex-logo-white.svg" class="eflex__logo">
+                    </div>
                     <div class="machine__sections">
                         <div id="input-section" class="section section--disabled input section--input">
-                            <h2 class="section__title"><span>Input</span></h2>
+                            <h2 class="section__title"><span>Video Input</span></h2>
                             <div class="section__container">
                                 <div class="input__media"></div>
                             </div>
@@ -110,7 +115,7 @@
                             <span class="arrow-line"></span>
                             <span class="arrow-line"></span>
                         </a>
-                        <h2 class="section__title section__title--learning"><span>Learning</span></h2>
+                        <h2 class="section__title section__title--learning"><span>System Training</span></h2>
                         <div class="section__container">
                             <div id="green" class="learning__class learning__class--disabled learning__class--green">
                                 <div class="examples">
@@ -130,7 +135,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="#" class="button button--record button--color-green"><span class="button__content button__content--small">Train <span class="button__color-title">Green</span></span></a>
+                                    <a href="#" class="button button--record button--color-green">
+                                      <span class="button__content button__content--small">Train
+                                        <span class="button__color-title">Default</span>
+                                      </span>
+                                    </a>
                                 </div>
                             </div>
                             <div id="purple" class="learning__class learning__class--disabled learning__class--purple">
@@ -151,7 +160,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="#" class="button button--record button--color-purple"><span class="button__content button__content--small">Train <span class="button__color-title">Purple</span></span></a>
+                                    <a href="#" class="button button--record button--color-purple">
+                                      <span class="button__content button__content--small">Train 
+                                        <span class="button__color-title">Incomplete</span>
+                                      </span>
+                                    </a>
                                 </div>
                             </div>
                             <div id="orange" class="learning__class learning__class--disabled learning__class--orange">
@@ -172,7 +185,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="#" class="button button--record button--color-orange"><span class="button__content button__content--small">Train <span class="button__color-title">Orange</span></span></a>
+                                    <a href="#" class="button button--record button--color-orange">
+                                      <span class="button__content button__content--small">Train 
+                                        <span class="button__color-title">Complete</span>
+                                      </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -208,9 +225,9 @@
             <div class="section__container">
                 <div class="output__controls">
                     <div class="output__selector-wrapper">
-                        <div id="GIFOutput" class="output_selector__option output_selector__option--selected">GIF</div>
-                        <div id="SoundOutput" class="output_selector__option">Sound</div>
-                        <div id="SpeechOutput" class="output_selector__option">Speech</div>
+                        <!--<div id="GIFOutput" class="output_selector__option">GIF</div>-->
+                        <!--<div id="SoundOutput" class="output_selector__option">Sound</div>-->
+                        <div id="SpeechOutput" class="output_selector__option output_selector__option--selected"></div>
                     </div>
                 </div>
                 <div class="divider output__divider"></div>
@@ -298,8 +315,8 @@
     </div>
 </div>
 <footer class="footer">
-    <a href="https://experiments.withgoogle.com/ai" target="_blank" class="link"><img class="footer__image" src="./assets/footer.svg" alt="Made with some friends at Google"></a>
-    <a href="https://www.google.com/policies/" target="_blank" class="link link--privacy">Privacy &amp; Terms</a>
+    <!--<a href="https://experiments.withgoogle.com/ai" target="_blank" class="link"><img class="footer__image" src="./assets/footer.svg" alt="Made with some friends at Google"></a>-->
+    <!--<a href="https://www.google.com/policies/" target="_blank" class="link link--privacy">Privacy &amp; Terms</a>-->
 </footer>
 <p id="input__media__activate" class="input__media__activate">
     <img src="./assets/arrows/arrow-4.svg" width="30" height="80">To teach your machine,
